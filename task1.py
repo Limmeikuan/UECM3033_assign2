@@ -38,7 +38,7 @@ def sor(A, b):
     return list(sol)
 
 def solve(A, b):
-    condition =  # State and implement your condition here
+    condition =  True# State and implement your condition here
     if condition:
         print('Solve by lu(A,b)')
         
