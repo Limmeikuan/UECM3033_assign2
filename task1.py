@@ -38,13 +38,13 @@ def sor(A, b):
     return list(sol)
 
 def solve(A, b):
-    condition =  True# State and implement your condition here
+    condition = np.count_nonzero(A) > 1/2 *len(A)    # State and implement your condition here
     if condition:
         print('Solve by lu(A,b)')
         
         return lu(A,b)
     else:
-        print('Solve by sor(A,b)')
+        print('Solve by sor(A,b)') 
         
         return sor(A,b)
 
