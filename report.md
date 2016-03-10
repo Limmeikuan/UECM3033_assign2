@@ -35,11 +35,13 @@ Explain how you generate these pictures from `task2.py`.
 
 
 ![lower](lower.png)
-When the resolution is lower , $\Sigma_30$
+
+When the resolution is lower , $\Sigma_{30}$
 
 
 ![better](better.png)
-When the resolution is better, $\Sigma_200$
+
+When the resolution is better, $\Sigma_{200}$
 
 
 This figures show when the $\Sigma$ is keeping the first 30 and 200 non zero elements.
