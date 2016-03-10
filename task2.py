@@ -72,7 +72,7 @@ plt.show()
 fig.savefig('original')
 
 
-image_svd(30)
-fig2.savefig('lower_30')
 image_svd(200)
 fig2.savefig('better_200')
+
+
